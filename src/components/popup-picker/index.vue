@@ -1,5 +1,5 @@
 <template>
-  <div class="vux-cell-box">
+  <div class="vux-cell-box popup-picker">
     <div class="weui-cell vux-tap-active weui-cell_access" @click="onClick" v-show="showCell">
       <div class="weui-cell__hd">
         <slot name="title" label-class="weui-label" :label-style="labelStyles" :label-title="title">
@@ -313,7 +313,7 @@ export default {
 .weui-cells__title {
   color: #999!important;
 }
-.weui-cells {
+.popup-picker {
   .weui-cell {
     height: 113px;
   }

@@ -162,4 +162,10 @@ export default {
 .vux-android-actionsheet-enter-active {
   transition: opacity 300ms!important;
 }
+
+// 修改样式
+.weui-actionsheet__cell {
+  font-size: 30px;
+  padding: 26px 0;
+}
 </style>

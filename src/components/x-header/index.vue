@@ -88,12 +88,12 @@ export default {
 
 .vux-header {
   position: relative;
-  padding: 3px 0;
+  // padding: 3px 0;
   box-sizing: border-box;
   background-color: @header-background-color;
 }
 .vux-header .vux-header-title {
-  line-height: 40px;
+  line-height: 88px;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -101,7 +101,7 @@ export default {
 }
 .vux-header-title-area, .vux-header .vux-header-title {
   margin: 0 88px;
-  height: 40px;
+  height: 88px;
   width: auto;
   overflow: hidden;
   text-overflow: ellipsis;
