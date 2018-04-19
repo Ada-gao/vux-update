@@ -35,8 +35,10 @@ export default {
   display: flex;
   height: @popup-header-height;
   line-height: @popup-header-height;
-  font-size: @popup-header-font-size;
+  // font-size: @popup-header-font-size;
   background-color: @popup-header-bg-color;
+  padding: 10px;
+  font-size: 32px; /*px*/
 }
 .vux-popup-header-title {
   flex: 1;
@@ -49,7 +51,7 @@ export default {
 }
 .vux-popup-header-right {
   padding-right: @popup-header-right-text-padding;
-  color: @popup-header-right-text-color;
+  color: #2B7DC2;
 }
 .vux-popup-header.vux-1px-b:after {
   border-color: #D9D9D9;

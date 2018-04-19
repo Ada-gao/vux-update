@@ -241,7 +241,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
 @import './scroller.css';
+// 修改样式
+// .scroller-item {
+//   height: 48px; /*px*/
+//   line-height: 48px; /*px*/
+// }
+// .scroller-indicator {
+//   height: 48px; /*px*/
+// }
 </style>
 

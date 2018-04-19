@@ -319,6 +319,9 @@ export default {
   }
 }
 .vux-popup-picker-container {
-  font-size: 32px; /*px*/
+  .vux-picker .scroller-item {
+    font-size: 32px; /*px*/
+    // padding: 10px;
+  }
 }
 </style>

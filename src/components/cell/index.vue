@@ -131,7 +131,7 @@ export default {
 }
 // 修改样式
 .weui-cell_access .weui-cell__ft {
-  padding-right: 72px;
+  padding-right: 72px !important;
 }
 //
 .weui-cell_access .weui-cell__ft.vux-cell-arrow-down:after {
