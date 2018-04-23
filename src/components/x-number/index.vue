@@ -208,8 +208,7 @@ export default {
     }
   }
 }
-.weui-cells:before,
-.weui-cells:after {
-  border: none;
+.vux-number-mod::before {
+  border-top: none;
 }
 </style>
